@@ -14,7 +14,6 @@ style = "bold yellow"
 
 
 [python]
-symbol = "🐍 "
 version_format = "v${major}.${minor}"
 
 [java]
@@ -29,6 +28,10 @@ symbol = " "
 symbol = " "
 style = "bold purple"
 
+[gcloud]
+format = '[$symbol$active]($style) '
+style = 'bold yellow'
+
 [golang]
 version_format = "v${major}.${minor}"
 symbol = " "
@@ -38,9 +41,6 @@ version_format = "v${major}.${minor}"
 symbol = " "
 
 # Disabled
-[gcloud]
-disabled = true
-
 [aws]
 disabled = true
 
