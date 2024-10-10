@@ -29,7 +29,7 @@ symbol = " "
 style = "bold purple"
 
 [gcloud]
-format = '[$symbol$active]($style) '
+format = '[$symbol$active \($project\)]($style) '
 style = 'bold yellow'
 
 [golang]
