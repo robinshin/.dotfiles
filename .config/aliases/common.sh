@@ -8,6 +8,8 @@ function cd() {
     fi
 }
 
+alias pn=pnpm
+
 alias tf="tofu"
 
 alias notebook_venv="source $HOME/.venv_jupyter/bin/activate && jupyter notebook --port=8889"
